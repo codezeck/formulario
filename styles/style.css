@@ -33,6 +33,7 @@ article{
     border-radius: 15px;
     display: block;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.479);
+    padding: 1px 0px 5px 0px;
     transition: 0.5s;
 }
 div h1{
