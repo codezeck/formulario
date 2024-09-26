@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(cyan , purple);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    width: 300px; 
+}
+#img{
+    background-image: url(../assets/pexels-huyen-le-thanh-1056408622-27977728\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+.container{
+    background-color: rgb(227, 228, 228);
+    background-size: cover;
+    height: 520px;
+    border-radius: 15px;
+    display: block;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.479);
+    transition: 0.5s;
+}
+div h1{
+    text-align: center;
+    padding: 15px;
+}
+div p{
+    text-align: center;
+    padding: 0px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+#ipassword, #iusuario{
+    width: 81%;
+    height: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: auto;
+}
+label{
+    color: white;
+    padding: 7px 0px 0px 8px;
+}
+form{
+    margin: auto;
+    width: 270px;
+}
+.campo{
+    height: 38px;
+    background-color: blueviolet;
+    margin-bottom: 5px;
+    align-items: center;
+    border-radius: 10px;
+}
+.campo input{
+    transform: translateY(-8px);
+}
+#entrar{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: transparent;
+    margin-bottom: 5px;
+}
+#entrar:hover{
+    background-color: rgb(161, 255, 255);
+    border: solid 2px blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+    
+}
+#esenha{
+    display: block;
+    color: white;
+    background-color: rgb(172, 96, 243);
+    border-radius: 10px;
+    border: 2px transparent;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#esenha:hover{
+    background-color: rgb(138, 253, 253);
+    border: solid 2px blueviolet;
+    color: blueviolet;
+}
+#esenha i{
+    font-size: 15px;
+}
