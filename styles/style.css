@@ -32,7 +32,6 @@ article{
     height: 540px;
     border-radius: 15px;
     display: block;
-    padding-bottom: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.479);
     transition: 0.5s;
 }
@@ -103,4 +102,5 @@ form{
 }
 #esenha i{
     font-size: 15px;
+    transform: translateY(3px);
 }
